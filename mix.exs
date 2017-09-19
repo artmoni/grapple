@@ -54,7 +54,7 @@ defmodule Grapple.Mixfile do
   defp deps do
     [
       {:graphql, "~> 0.3"},
-      {:httpoison, "~> 0.9.0"},
+      {:httpoison, "~> 0.12"},
       {:gen_stage, "~> 0.4"},
       {:ex_doc, "~> 0.13", only: :dev},
     ]
